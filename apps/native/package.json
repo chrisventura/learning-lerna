@@ -1,0 +1,7 @@
+{
+    "name": "@learning-lerna/app-native",
+    "version": "1.0.0",
+    "dependencies": {
+        "@learning-lerna/core": "^1.0.0"
+    }
+}
