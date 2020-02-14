@@ -1,5 +1,5 @@
 export class Http {
     public send() {
-        console.log('send a message');
+        console.log('THIS IS A BREAKING CHANGE!');
     }
 }
