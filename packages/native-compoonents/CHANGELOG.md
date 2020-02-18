@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/native-components@1.1.3...@learning-lerna/native-components@1.2.0) (2020-02-18)
+
+
+### Features
+
+* add dist ([6f2b3eb](https://github.com/chrisventura/learning-lerna/commit/6f2b3eb))
+
+
+
+
+
 ## [1.1.3](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/native-components@1.1.2...@learning-lerna/native-components@1.1.3) (2020-02-14)
 
 
