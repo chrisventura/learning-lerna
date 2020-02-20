@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/native-components@1.2.2...@learning-lerna/native-components@1.2.3) (2020-02-20)
+
+**Note:** Version bump only for package @learning-lerna/native-components
+
+
+
+
+
 ## [1.2.2](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/native-components@1.2.1...@learning-lerna/native-components@1.2.2) (2020-02-18)
 
 **Note:** Version bump only for package @learning-lerna/native-components
