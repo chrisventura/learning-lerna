@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/core@2.1.3...@learning-lerna/core@2.2.0) (2020-02-20)
+
+
+### Features
+
+* big feat ([78c3179](https://github.com/chrisventura/learning-lerna/commit/78c3179))
+
+
+
+
+
 ## [2.1.3](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/core@2.1.3...@learning-lerna/core@2.1.3) (2020-02-20)
 
 **Note:** Version bump only for package @learning-lerna/core
