@@ -1,19 +1,24 @@
 {
-    "name": "@learning-lerna/core",
-    "version": "2.2.1",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "files": [
-        "src",
-        "dist"
-    ],
-    "scripts": {
-        "build": "npm run clean && npm run compile",
-        "clean": "rm -rf ./dist",
-        "compile": "tsc -p tsconfig.build.json --declaration --declarationMap",
-        "prepare": "npm run build"
-    },
-    "dependencies": {
-        "lodash": "^4.17.15"
-    }
+  "name": "@learning-lerna/core",
+  "version": "2.2.1",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run set-dist && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json --declaration --declarationMap",
+    "set-dist": "json --in-place -f ./package.json -e 'this.main=\"dist/index.js\"'",
+    "clear-dist": "json --in-place -f ./package.json -e 'delete this.main'",
+    "prepare": "npm run build",
+    "postPublish": "npm run clean && npm run clear-dist"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "json": "^9.0.6"
+  }
 }
