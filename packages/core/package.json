@@ -1,6 +1,6 @@
 {
   "name": "@learning-lerna/core",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "files": [
     "src",
     "dist"
