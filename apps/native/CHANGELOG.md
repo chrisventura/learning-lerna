@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/app-native@1.1.7...@learning-lerna/app-native@1.1.8) (2020-02-24)
+
+**Note:** Version bump only for package @learning-lerna/app-native
+
+
+
+
+
 ## [1.1.7](https://github.com/chrisventura/learning-lerna/compare/@learning-lerna/app-native@1.1.6...@learning-lerna/app-native@1.1.7) (2020-02-24)
 
 **Note:** Version bump only for package @learning-lerna/app-native
