@@ -7,12 +7,12 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run set-dist && npm run compile",
-    "clean": "rm -rf ./dist",
+    "clean": "rm -rf ./dist && npm run clear-dist",
     "compile": "tsc -p tsconfig.build.json --declaration --declarationMap",
     "set-dist": "json --in-place -f ./package.json -e 'this.main=\"dist/index.js\"'",
     "clear-dist": "json --in-place -f ./package.json -e 'delete this.main'",
     "prepare": "npm run build",
-    "postPublish": "npm run clean && npm run clear-dist"
+    "postpublish": "npm run clean"
   },
   "dependencies": {
     "lodash": "^4.17.15"
