@@ -10,7 +10,8 @@
     "scripts": {
         "build": "npm run clean && npm run compile",
         "clean": "rm -rf ./dist",
-        "compile": "tsc -p tsconfig.build.json --declaration --declarationMap"
+        "compile": "tsc -p tsconfig.build.json --declaration --declarationMap",
+        "prepare": "npm run build"
     },
     "dependencies": {
         "lodash": "^4.17.15"
