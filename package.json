@@ -4,5 +4,11 @@
   "devDependencies": {
     "json": "^9.0.6",
     "lerna": "^3.16.4"
-  }
+  },
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chrisventura/learning-lerna.git",
+  "author": "Chris Ventura <chrisv@iqmetrix.com>",
+  "license": "MIT"
 }
