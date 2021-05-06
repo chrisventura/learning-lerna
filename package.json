@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "lerna": "^3.16.4"
   },
   "dependencies": {},
